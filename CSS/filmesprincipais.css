@@ -1,0 +1,46 @@
+.filmesPrincipais{
+    height: 800px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(155,49,220,1) 35%, rgba(0,212,255,1) 100%);
+    padding: 48px;
+}
+
+img, .atropos{
+    width: 400px;
+    height: auto;
+    border-radius: 16px;
+}
+
+.fotos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.fotos2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+}
+.colunasFotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.filmesPrincipais__title{
+    font-family: Roboto;
+    text-align: center;
+}  
+
+@media (max-width:960px){
+    .fotos{
+        display: none;
+    }
+    .fotos2{
+        display: none;
+    }
+    .filmesPrincipais{
+        margin-top: 0px;
+    }
+}
